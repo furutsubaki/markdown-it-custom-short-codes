@@ -1,0 +1,26 @@
+{
+  "name": "markdown-it-custom-short-codes",
+  "version": "1.0.0",
+  "description": "A plugin for markdown-it. Allows you to set up arbitrary shortcodes. [[id attr=value]]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furutsubaki/markdown-it-custom-short-codes.git"
+  },
+  "keywords": [
+    "markdown-it",
+    "shortcode"
+  ],
+  "author": "furutsubaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furutsubaki/markdown-it-custom-short-codes/issues"
+  },
+  "homepage": "https://github.com/furutsubaki/markdown-it-custom-short-codes#readme",
+  "dependencies": {
+    "markdown-it": "^11.0.0"
+  }
+}
