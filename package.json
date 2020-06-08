@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-custom-short-codes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for markdown-it. Allows you to set up arbitrary shortcodes. [[id attr=value]]",
   "main": "index.js",
   "scripts": {
