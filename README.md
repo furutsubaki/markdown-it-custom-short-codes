@@ -6,7 +6,7 @@
 
 > `[[id attr=value]]` shortcode plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
 
-**requires `markdown-it` v10.+.**
+**requires `markdown-it` v12.+.**
 
 A plugin for markdown-it. Allows you to set up arbitrary shortcodes.
 
@@ -15,7 +15,7 @@ A plugin for markdown-it. Allows you to set up arbitrary shortcodes.
 node.js:
 
 ```shell
-npm install markdown-it-custom-short-codes --save
+yarn add --dev markdown-it-custom-short-codes
 ```
 
 ## Use
