@@ -20,7 +20,7 @@
     "url": "https://github.com/furutsubaki/markdown-it-custom-short-codes/issues"
   },
   "homepage": "https://github.com/furutsubaki/markdown-it-custom-short-codes#readme",
-  "dependencies": {
-    "markdown-it": "^12.3.2"
+  "peerDependencies": {
+    "markdown-it": ">=11.0.0"
   }
 }
