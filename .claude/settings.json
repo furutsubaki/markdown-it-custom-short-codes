@@ -1,0 +1,25 @@
+{
+    "disableAllHooks": false,
+    "enableAllProjectMcpServers": true,
+    "enabledPlugins": {
+        "security-guidance@claude-plugins-official": true
+    },
+    "hooks": {
+    },
+    "permissions": {
+        "allow": [],
+        "ask": [
+        ],
+        "deny": [
+            "Bash(*deploy*)",
+            "Bash(npm publish *)",
+            "Bash(pnpm publish *)",
+            "Bash(terraform apply *)",
+            "Bash(yarn publish *)",
+            "Read(./secrets/**)",
+            "Read(~/.aws/**)",
+            "Read(~/.ssh/**)"
+        ]
+    },
+    "respectGitignore": true
+}
